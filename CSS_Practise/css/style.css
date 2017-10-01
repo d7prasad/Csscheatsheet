@@ -1,0 +1,98 @@
+body{
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/* This class is important to display the content in the center - Note the Margin-auto
+it is important*/
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.box-1{
+    padding-top: 10px;
+}
+
+.categories{
+
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.clear{
+  clear: both;
+}
+
+a:hover{
+  color: red;
+}
+
+.form-group{
+  margin-top: 40px;
+}
+
+.form-group label{
+  display: block;
+}
+
+.block{
+  width:31.3%;
+  float: left;
+}
+
+/* */
+.p-box{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+  /* Here we have given the position as relative to keep the h1 to stick to this element
+  when we say the positions as absolute */
+  position: relative;
+  background-image: url('../images/bg-image.jpg');
+  color:  #ffffff;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.p-box h1{
+  position: absolute;
+  top: 50px;
+}
+
+/*This is jus to push the focus to the particular div. Not needed actually*/
+.bottom{
+  margin-bottom: 1000px;
+}
+
+/* The below element will stay at the particular position even while scrolling*/
+.fixme{
+  position: fixed;
+  top:400px;
+  margin-left: 1rem;
+}
+
+.my-list{
+  padding-top: 20px;
+}
+.my-list li:first-child{
+  background: red;
+}
+
+.my-list li:last-child{
+  background: blue;
+}
+
+.my-list li:nth-child(3){
+  background: yellow;
+}
+
+.my-list li:nth-child(even){
+  background: grey;
+}
